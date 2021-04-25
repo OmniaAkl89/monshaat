@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61410" started-at="2020-12-15T00:31:52 EET" finished-at="2020-12-15T00:32:53 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61410" started-at="2020-12-15T00:31:52 EET" finished-at="2020-12-15T00:32:53 EET">
+      <class name="tests.AddCenterTest">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.AddCenterTest@2833cc44]" name="startDriver" is-config="true" duration-ms="8782" started-at="2020-12-15T00:31:43 EET" finished-at="2020-12-15T00:31:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="Admin_login()[pri:0, instance:tests.AddCenterTest@2833cc44]" name="Admin_login" is-config="true" duration-ms="9611" started-at="2020-12-15T00:31:52 EET" finished-at="2020-12-15T00:32:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_login -->
+        <test-method status="PASS" signature="addNewCenter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.AddCenterTest@2833cc44]" name="addNewCenter" duration-ms="12011" started-at="2020-12-15T00:32:03 EET" data-provider="ExcelData" finished-at="2020-12-15T00:32:15 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[center 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Address 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24.66]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[45.77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCenter -->
+        <test-method status="PASS" signature="addNewCenter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.AddCenterTest@2833cc44]" name="addNewCenter" duration-ms="12406" started-at="2020-12-15T00:32:15 EET" data-provider="ExcelData" finished-at="2020-12-15T00:32:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[center 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Address 2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[26.77]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[46.88]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCenter -->
+        <test-method status="PASS" signature="addNewCenter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.AddCenterTest@2833cc44]" name="addNewCenter" duration-ms="13516" started-at="2020-12-15T00:32:27 EET" data-provider="ExcelData" finished-at="2020-12-15T00:32:41 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[center 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Address 3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[26.555]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[46.88]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCenter -->
+        <test-method status="PASS" signature="addNewCenter(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.AddCenterTest@2833cc44]" name="addNewCenter" duration-ms="12395" started-at="2020-12-15T00:32:41 EET" data-provider="ExcelData" finished-at="2020-12-15T00:32:53 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[center 4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Address 4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23.88]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[46.099]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCenter -->
+      </class> <!-- tests.AddCenterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
